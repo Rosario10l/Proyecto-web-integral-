@@ -7,11 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AppBranches';
-
   constructor(){
-    console.log('Funciones de prueba ');
-    console.warn("advertencia");
-    console.log("prueba de conflictos")
+    console.log("Nuevas funciones")
+    console.warn("Cuidado")
+    console.log("Prueba de conflictos")
   }
-
 }
